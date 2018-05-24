@@ -28,11 +28,24 @@ header .navbar {
 	background-color: none;
 }
 
-.nav-link {
-	color: white;
-	padding: 5px 8px;
+ .navbar-nav > .nav-item > .nav-link {
+    color: white;
+    padding: 5px 8px;
 }
 
+ .navbar-nav > .nav-item > .nav-link:hover {
+ 	color: #64cf64;
+ }
+
+.navbar-nav > .nav-item > .nav-link > .active{
+	color: #64cf64; 
+	font-weight: 400;
+ 	border-bottom: 4px solid #efefa5;
+}
+ 
+.navbar-nav > .nav-item > .nav-link:hover > .active {
+  color: #efefa5;
+}
 
 
 /**Footer navigation**/
