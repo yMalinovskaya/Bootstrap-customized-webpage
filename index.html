@@ -2,18 +2,18 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Zayushka Vet Clinic</title>
+		<title>Supreme Vet Clinic</title>
 		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
+		<script src="js/prefixfree.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
-
-	<body>
+<body>
 
 	<header>
 		<nav class="navbar navbar-expand-md fixed-top navbar-light" role="navigation">
 			<div class="container">
-				<a class="navbar-brand" href="#featured">Zayushka <span class="subhead">Vet</span></a>
+				<a class="navbar-brand" href="#featured"><h1>Supreme <span class="subhead">Vet</span></h1></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -76,9 +76,11 @@
 	<div class="main">
 			<div class="page" id="mission">
 				<div class="content container">
-				<h2>Наша миссия</h2>
-				<p>Следуя инновационным тенденциям в ветеринарии, мы тщательно диагностируем и надежно лечим домашних животных разных видов включая собак, котов, пернатых, рептилий, грызунов и рыбок. Сотрудничая с нами, вы можете быть уверены в действенности и безопасности подобранного метода лечения. Мы беремся даже за тяжелые случаи, даря вашему питомцу шанс на здоровую и активную жизнь.</p>
-				<p>Наша стратегия - в изучении индивидуальных особенностей и полном ветеринарном сопровождении животного на его жизненном пути. Для этого мы разрабатываем превентивные планы для каждого питомца в зависимости от его породы, пола и возраста. Давайте вместе заботиться о наших меньших братьях!</p>
+					<h2>Наша миссия</h2>
+					<div class="row">
+					<p class="col-md-6">Следуя инновационным тенденциям в ветеринарии, мы тщательно диагностируем и надежно лечим домашних животных разных видов включая собак, котов, пернатых, рептилий, грызунов и рыбок. Сотрудничая с нами, вы можете быть уверены в действенности и безопасности подобранного метода лечения. Мы беремся даже за тяжелые случаи, даря вашему питомцу шанс на здоровую и активную жизнь.</p>
+					<p class="col-md-6">Наша стратегия - в изучении индивидуальных особенностей и полном ветеринарном сопровождении животного на его жизненном пути. Для этого мы разрабатываем превентивные планы для каждого питомца в зависимости от его породы, пола и возраста. Давайте вместе заботиться о наших меньших братьях!</p>
+					</div><!-- row -->	
 				</div><!-- content container -->
 			</div><!-- mission page -->
 
@@ -86,37 +88,37 @@
 				<div class="content container">
 				<h2>Услуги</h2>
 					<div class="row">
-						<article class="service col-sm-4">
+						<article class="service col-md-4 col-sm-12">
 							<img class="icon" src="images/icon-health.svg" alt="Icon">
 							<h3>Здоровье</h3>
 							<p>Для оценки состояния здоровья вашего питомца мы используем детальный осмотр, лабораторную диагностику, ультразвук, рентген, МРТ и компьютерную томографию.</p>
 						</article>
 
-						<article class="service col-sm-4">
+						<article class="service col-md-4 col-sm-12">
 							<img class="icon" src="images/icon-food.svg" alt="Icon">
 							<h3>Питание</h3>
 							<p>Наши эксперты создадут индивидуальный план питания вашего питомца, дабы избежать авитаминоза, а также проблем с весом и обменом веществ у животного.</p>
 						</article>
 
-						<article class="service col-sm-4">
+						<article class="service col-md-4 col-sm-12">
 							<img class="icon" src="images/icon-parasite.svg" alt="Icon">
 							<h3>Обработка от паразитов</h3>
 							<p>Мы предлагаем безопасные средства для лечения глистных инвазий, а также для избавления от блох, клещей, власоедов.</p>
 						</article>
 
-						<article class="service col-sm-4">
+						<article class="service col-md-4 col-sm-12">
 							<img class="icon" src="images/icon-vaccine.svg" alt="Icon">
 							<h3>Вакцинация</h3>
-							<p>В нашем распоряжении - инновационные препараты для вакцинации. Защитите своих животных от смертельных вирусов и инфекций.</p>
+							<p>В нашем распоряжении инновационные препараты для вакцинации. Защитите своих животных от смертельных вирусов и инфекций.</p>
 						</article>
 
-						<article class="service col-sm-4">
+						<article class="service col-md-4 col-sm-12">
 							<img class="icon" src="images/icon-grooming.svg" alt="Icon">
 							<h3>Груминг</h3>
 							<p>С помощью современных груминг технологий мы сделаем шерсть вашего питомца идеальной, а также позаботимся о состоянии кожи, ушек, когтей и зубов животного.</p>
 						</article>
 
-						<article class="service col-sm-4">
+						<article class="service col-md-4 col-sm-12">
 							<img class="icon" src="images/icon-sterile.svg" alt="Icon">
 							<h3>Стерилизация</h3>
 							<p>Избавляем домашних животных от навязчивого полового поведения и дарим спокойствие вам и вашим питомцам.</p>
@@ -126,68 +128,87 @@
 			</div><!-- services page -->
 
 			<div class="page" id="staff">
-				<div class="content container">
+				<div class="content container-fluid">
 				<h2>Персонал</h2>
 					<div class="row">
-						<div class="doctor col-sm-4">
-							<img class ="rounded-circle" src="images/doctor-velichkovskaya.jpg" alt="Photo of Dr Velichkovskaya">
-							<h3>Величковская Катерина</h3>
-							<p>Люблю животных с малых лет. Получаю неимоверное удовольствие, заботясь о них. Дома дарю любовь коту Марику и попугаю Кеше. Уличных животных подкармливаю, расселяю в приюты, пытаюсь находить хозяев. Образование высшее: Факультет ветеринарной медицины</p>
-						</div>	
 
-						<div class="doctor col-sm-4">
-							<img class ="rounded-circle" src="images/doctor-lopatin.jpg" alt="Photo of Dr Lopatin">
-							<h3>Лопатин Сергей</h3>
-							<p>Работаю в ветеринарной медицине больше 30 лет. Специализируюсь на хирургических операциях разной сложности, уходе за послеоперационными животными. Учавствую в благотворительной стерилизации уличных животных. Дома воспитываю двух Лабрадоров.</p>
-						</div>
+						<div class="doctor col-lg-4">
+							<div class="row">
+								<div class="photo col-6 offset-3 col-sm-3 offset-sm-1 col-md-3 offset-md-2 col-lg-4 offset-lg-0">
+									<img class ="rounded-circle" src="images/doctor-velichkovskaya.jpg" alt="Photo of Dr Velichkovskaya">
+								</div>
+								<div class="info col-8 offset-2 col-sm-7 offset-sm-0 col-md-6 col-lg-8">
+									<h3>Катерина Величковская</h3>
+									<p>Люблю животных с малых лет. Получаю неимоверное удовольствие, заботясь о них. Дома дарю любовь коту Марику и попугаю Кеше. Уличных животных подкармливаю, расселяю в приюты, пытаюсь находить хозяев. Образование высшее: Факультет ветеринарной медицины</p>
+								</div><!--info-->
+							</div><!--row-->
+						</div><!--doctor-->	
 
-						<div class="doctor col-sm-4">
-							<img class ="rounded-circle" src="images/doctor-ohrimenko.jpg" alt="Photo of Dr Ohrimenko">
-							<h3>Охрименко Светлана</h3>
-							<p>Ветеринарный стаж - 20 лет. Непосредственно выполняю все необходимые манипуляции животному, провожу УЗ диагностику. Обожаю собачек маленьких пород!</p>
-						</div>
+						<div class="doctor col-lg-4">
+							<div class="row">
+								<div class="photo col-6 offset-3 col-sm-3 offset-sm-1 col-md-3 offset-md-2 col-lg-4 offset-lg-0">
+									<img class ="rounded-circle" src="images/doctor-lopatin.jpg" alt="Photo of Dr Lopatin"></div>
+									<div class="info col-8 offset-2 col-sm-7 offset-sm-0 col-md-6 col-lg-8">
+									<h3>Сергей Иволгин</h3>
+									<p>Работаю в ветеринарной медицине больше 30 лет. Специализируюсь на хирургических операциях разной сложности, уходе за послеоперационными животными. Учавствую в благотворительной стерилизации уличных животных. Дома воспитываю двух Лабрадоров.</p>
+								</div><!--info-->
+							</div><!--row-->
+						</div><!--doctor-->	
+
+						<div class="doctor col-lg-4">
+							<div class="row">
+								<div class="photo col-6 offset-3 col-sm-3 offset-sm-1 col-md-3 offset-md-2 col-lg-4 offset-lg-0">
+									<img class ="rounded-circle" src="images/doctor-ohrimenko.jpg" alt="Photo of Dr Ohrimenko">
+								</div>
+								<div class="info col-8 offset-2 col-sm-7 offset-sm-0 col-md-6 col-lg-8">
+									<h3>Светлана Охрименко</h3>
+									<p>Ветеринарный стаж - 20 лет. Непосредственно выполняю все необходимые манипуляции животному, провожу УЗ диагностику. Обожаю собачек маленьких пород!</p>
+								</div><!--info-->
+							</div><!--row-->
+						</div><!--doctor-->	
 
 					</div><!--row-->
 				</div><!--content container-->
 			</div><!--staff page-->
 
 			<div class="page" id="testimonials">
-				<div class="container">
+				<div class="container-fluid">
 					<h2>Отзывы</h2>
 					<div class="row">
-						<div class="blockquote col-sm-6" id="Marina">
+						<blockquote class="col-sm-6" id="marina">
 							<div class="quote">
-								<span class="intro">Когда ни одна ветклиника не решилась взяться за наш случай...</span>
-		        				<span class="more"> врачи из Zayushka Вет пришли за помощь. Наша кошка проглотила кусок веревки, и мы обратились в клинику, опасаясь кишечной непроходимости. За кошкой наблюдали всю ночь, мне было сложно оставлять ее одну, однако врачи убедили меня, что с ней будет все в порядке. Доктор даже сказала, что побрызгала кошку каким-то релаксирующим спреем с феромонами перед тем, как проводить манипуляции. Огромное спасибо Вам, доктор Охрименко, за оказанную помощь! </span>
+								<span class="intro">Когда ни одна ветклиника не решилась взяться за наш случай</span>
+		        				<span class="more"> врачи из Supreme Vet пришли за помощь. Наша кошка проглотила кусок веревки, и мы обратились в клинику, опасаясь кишечной непроходимости. За кошкой наблюдали всю ночь, мне было сложно оставлять ее одну, однако врачи убедили меня, что с ней будет все в порядке. Доктор даже сказала, что побрызгала кошку каким-то релаксирующим спреем с феромонами перед тем, как проводить манипуляции. Огромное спасибо Вам, доктор Охрименко, за оказанную помощь! </span>
 								<span class="customer">Марина В</span>
 							</div>
-						</div>
+						</blockquote>
+					
 
-						<div class="blockquote col-sm-6" id="Vadim">
+						<blockquote class="col-sm-6" id="vadim">
 							<div class="quote">
-								<span class="intro">Возвращаясь домой с работы поздно вечером, я заметил...</span>
-		        				<span class="more">собаку, лежащую на обочине. Наверняка кто-то сбил бедняжку и оставил умирать на дороге. Не долго думая, я поднял собачку и повез в ближайшую клинику. В клинике Zayushka, куда я доставил пса, дежурила медсестра, которая сразу вызвала доктора, оперировать собаку взялись немедленно. Доктор Лопатин практически вернул животное с того света. Я оставил собачку у себя, теперь мы с Вьюнком друзья навеки.</span>
+								<span class="intro">Возвращаясь домой с работы поздно вечером, я заметил</span>
+		        				<span class="more">собаку, лежащую на обочине. Наверняка кто-то сбил бедняжку и оставил умирать на дороге. Не долго думая, я поднял собачку и повез в ближайшую клинику. В клинике Supreme, куда я доставил пса, дежурила медсестра, которая сразу вызвала доктора, оперировать собаку взялись немедленно. Доктор Лопатин практически вернул животное с того света. Я оставил собачку у себя, теперь мы с Вьюнком друзья навеки.</span>
 		        				<span class="customer">Вадим Д</span>
 		        			</div>
-						</div>
+						</blockquote>
 
 
-						<div class="blockquote col-sm-6" id="Nastya">
+						<blockquote class="col-sm-6" id="nastya">
 							<div class="quote">
-								<span class="intro">Собаки - не только мое хобби, но и бизнес...</span>
-		        				<span class="more"> Мы с мужем разводим щенков бордер-колли, одной из самый умных и добрых пастушьих пород. Все процедуры со щенками осуществляю в клинике Zayushka. Вакцинируем, грумим, лечим - все это делаем у врача Величковской Катерины Ивановны. Мои собаки постоянно учавствуют в конкурсах, имеют богатую родословную, поэтому мне важно, чтобы ухаживали за ними на высшем уровне, и эта клиника отлично справляется со своей задачей.</span>
+								<span class="intro">Собаки - не только мое хобби, но и бизнеc</span>
+		        				<span class="more"> Мы с мужем разводим щенков бордер-колли, одной из самый умных и добрых пастушьих пород. Все процедуры со щенками осуществляю в клинике Supreme. Вакцинируем, грумим, лечим - все это делаем у врача Величковской Катерины Ивановны. Мои собаки постоянно учавствуют в конкурсах, имеют богатую родословную, поэтому мне важно, чтобы ухаживали за ними на высшем уровне, и эта клиника отлично справляется со своей задачей.</span>
 								<span class="customer">Настя А</span>
 							</div>
-						</div>
+						</blockquote>
 
-						<div class="blockquote col-sm-6" id="Senya">
+						<blockquote class="col-sm-6" id="igor">
 							<div class="quote">
-								<span class="intro">Мы ездим сюда регулярно и обожаем доктора Величковскую...</span>
+								<span class="intro">Мы ездим сюда регулярно и обожаем доктора Величковскую</span>
 		        				<span class="more">и доктора Лопатина. Мне нравится, что оба врача нашли время, чтобы познакомиться с нами и нашими зайчатами. Они дали много советов о том, как позаботиться о нашем новом зайке вместе с нашей старшей зайчихой. Мне было легко записаться на прием, и врачи были очень обходительны со мной, когда мне пришлось перепланировать визит.</span>
-								<span class="customer">Сеня М</span>
+								<span class="customer">Игорь М</span>
 							</div>
-						</div>
-				</div>	
+						</blockquote>	
+				</div><!--row -->	
 			</div><!--container -->
 	</div><!--testimonials page -->
 		
@@ -217,7 +238,7 @@
 	</div>
 	
 	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="js/myscript.js"></script>
 	</body>
