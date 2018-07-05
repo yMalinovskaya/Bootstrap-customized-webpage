@@ -86,6 +86,16 @@ and (max-width: 768px) {
   }
 }
 
+/**  Page **/
+.page {
+  padding: 50px 0;
+}
+
+.page h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 /** Page -- Mission **/
 
 #mission {
@@ -118,6 +128,9 @@ and (max-width: 768px) {
     padding: 0 20%;
   }
 }
+
+
+
 
 /** Page -- Staff **/
 
