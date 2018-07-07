@@ -96,9 +96,9 @@ and (max-width: 768px) {
   margin-bottom: 30px;
 }
 
-/** Page -- Mission **/
+/** Page -- About **/
 
-#mission {
+#about {
   background-image: linear-gradient(to bottom, #b8abab, #f9f9f9);
 }
 
@@ -132,9 +132,9 @@ and (max-width: 768px) {
 
 
 
-/** Page -- Staff **/
+/** Page -- Doctors **/
 
-#staff {
+#doctors {
   background-image: linear-gradient(to bottom, #ffe3b1, #fff8eb);
 }
 
